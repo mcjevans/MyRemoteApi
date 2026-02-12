@@ -1,0 +1,6 @@
+# Ignore bin
+MyRemoteApi/bin/
+
+# Ignore obj
+MyRemoteApi/obj/
+
