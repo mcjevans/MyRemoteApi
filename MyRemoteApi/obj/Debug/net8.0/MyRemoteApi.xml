@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyRemoteApi</name>
+    </assembly>
+    <members>
+        <member name="M:TasksController.CreateTask(MyRemoteApi.Models.TodoTask)">
+            <summary>
+            Creates a new task.
+            </summary>
+            <param name="task">The task object to create.</param>
+            <response code="201">Returns the newly created task</response>
+            <response code="400">If the task is null or invalid</response>
+        </member>
+        <member name="M:TasksController.Exchange">
+            <summary>
+            Retrieves all tasks from the database.
+            </summary>
+            <returns>A list of tasks.</returns>
+        </member>
+    </members>
+</doc>
